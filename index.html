@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Card diri siswa RPL SMKN 3 Sekayu.">
+  <title>Card Diri - Siswa RPL SMKN 3 Sekayu</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #243447; background: #eef3f8; }
+    header { padding: 45px 20px; text-align: center; color: white; background: linear-gradient(135deg, #123b5d, #2878a5); }
+    header h1 { margin: 0 0 8px; }
+    nav { background: #0d2d46; text-align: center; padding: 12px; }
+    nav a { display: inline-block; margin: 4px 10px; color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #ffd166; }
+    main { width: min(950px, 92%); margin: 28px auto; }
+    section { margin-bottom: 20px; padding: 24px; background: white; border-radius: 12px; box-shadow: 0 3px 12px #14324b14; }
+    h2 { margin-top: 0; color: #123b5d; }
+    .profil { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+    .profil img { width: 170px; height: 170px; object-fit: cover; border-radius: 50%; border: 5px solid #ffd166; background: #e6edf3; }
+    ul, ol { padding-left: 24px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 12px; border: 1px solid #cbd5df; text-align: left; }
+    th { color: white; background: #123b5d; }
+    tr:nth-child(even) { background: #f3f7fa; }
+    .catatan { color: #526579; font-size: .92rem; }
+    footer { padding: 20px; text-align: center; color: white; background: #0d2d46; }
+    @media (max-width: 600px) { section { padding: 18px; } table { font-size: .9rem; } th, td { padding: 8px; } }
+  </style>
+</head>
+<body>
+  <header id="beranda">
+    <h1>Card Diri Siswa RPL</h1>
+    <p>SMK Negeri 3 Sekayu | Rekayasa Perangkat Lunak</p>
+  </header>
+  <nav aria-label="Navigasi utama">
+    <a href="#profil">Profil</a><a href="#hobi">Hobi</a>
+    <a href="#keterampilan">Keterampilan</a><a href="#pendidikan">Pendidikan</a>
+  </nav>
+  <main>
+    <section id="profil">
+      <h2>Profil Saya</h2>
+      <div class="profil">
+        <img src="foto.jpg" alt="Foto profil siswa RPL">
+        <div>
+          <h3>Halo, saya Andri Aditya Pratama!</h3>
+          <p>Saya adalah siswa kelas <b>X RPL 1</b> di <b>SMK Negeri 3 Sekayu</b>. Saya memiliki minat dalam bidang <i>teknologi, komputer, dan pengembangan website</i>.</p>
+          <p>Saya ingin terus belajar dan mengembangkan kemampuan agar dapat menjadi seorang <b>Web Developer</b> yang kreatif dan bertanggung jawab.</p>
+        </div>
+      </div>
+    </section>
+    <section id="hobi">
+      <h2>Hobi Saya</h2>
+      <p>Beberapa kegiatan yang saya sukai pada waktu luang:</p>
+      <ul>
+        <li>Mempelajari teknologi dan komputer</li><li>Mendengarkan musik</li>
+        <li>Membaca dan mencari informasi</li><li>Berolahraga</li>
+      </ul>
+    </section>
+    <section id="keterampilan">
+      <h2>Keterampilan</h2>
+      <p>Keterampilan yang sedang saya pelajari:</p>
+      <ol>
+        <li>HTML untuk membuat struktur halaman website.</li>
+        <li>CSS untuk mengatur warna, tata letak, dan tampilan website.</li>
+        <li>Dasar JavaScript untuk membuat halaman lebih interaktif.</li>
+        <li>Penggunaan Visual Studio Code sebagai teks editor.</li>
+      </ol>
+    </section>
+    <section id="pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <table>
+        <thead><tr><th>No.</th><th>Jenjang</th><th>Nama Sekolah</th><th>Tahun</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>SD</td><td>Nama Sekolah Dasar</td><td>Isi tahun</td></tr>
+          <tr><td>2</td><td>SMP</td><td>Nama Sekolah Menengah Pertama</td><td>Isi tahun</td></tr>
+          <tr><td>3</td><td>SMK</td><td>SMK Negeri 3 Sekayu</td><td>Isi tahun–sekarang</td></tr>
+        </tbody>
+      </table>
+      <p class="catatan">Ganti nama sekolah dan tahun sesuai riwayat pendidikan sebenarnya.</p>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 CARD Andri Aditya Pratama | SMK Negeri 3 Sekayu</p></footer>
+</body>
+</html>
